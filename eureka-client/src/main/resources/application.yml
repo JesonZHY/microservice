@@ -5,5 +5,3 @@ eureka:
 spring:
   application:
     name: hello-server
-server:
-  port: 2223
