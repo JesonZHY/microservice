@@ -9,8 +9,8 @@ public class HelloController {
 
     private final Logger logger = Logger.getLogger(getClass());
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "hello world";
+    @GetMapping("/calc")
+    public String calc(Integer a, Integer b) {
+        return "a + b =" + (a + b);
     }
 }
